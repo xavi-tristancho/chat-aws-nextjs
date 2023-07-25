@@ -67,6 +67,7 @@
 ## [8] Notificaciones
 
 - El usuario tiene que recibir notificaciones de escritorio cuando alguien le envie un mensaje.
+- El usuario tiene que poder desactivar las notificaciones de escritorio.
 
 ## Pantallas
 
