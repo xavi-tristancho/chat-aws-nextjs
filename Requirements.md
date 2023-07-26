@@ -53,7 +53,7 @@
 - El usuario tiene que poder eliminar un mensaje.
   - Descripción
     - La eliminación del mensaje será efectiva para todos los usuarios.
-- El usuario tiene que poder editar un mensaje. 
+- El usuario tiene que poder editar un mensaje.
   - Descripción
     - En caso de edición de un mensaje, se representará visualmente que ese mensaje ha sido editado.
 - El usuario tiene que poder responder a un mensaje en concreto.
@@ -79,5 +79,6 @@
 * Chat
   * [3] Listado de Conversaciones a la izquierda
     * [2] Botón "Crear Conversación". Abre un modal y muestra a los usuarios registrados en la aplicación
+    * [2] Apartado "Solicitudes"
   * [4, 5, 6] Conversación activa a la derecha
 * [7,8] Perfil
