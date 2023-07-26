@@ -26,7 +26,7 @@
 
 ## [3] Listado de conversaciones
 
-- El usuario tiene que poder ver un listado de conversaciones
+- El usuario tiene que poder ver un listado de conversaciones mostrándolas de más recientes a menos recientes. La más reciente será la que tenga un mensaje enviado o recibido más cercano a la hora actual.
 - El usuario tiene que poder buscar entre las conversaciones creadas por el nombre del usuario
 
 ## [4] Envío de mensajes dentro de una conversación
