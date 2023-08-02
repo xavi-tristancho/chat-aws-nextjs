@@ -29,6 +29,12 @@
 - El usuario tiene que poder ver un listado de conversaciones mostrándolas de más recientes a menos recientes. La más reciente será la que tenga un mensaje enviado o recibido más cercano a la hora actual.
 - El usuario tiene que poder buscar entre las conversaciones creadas por el nombre del usuario.
 - El usuario no tiene que poder ver los participantes de los chats a los que no pertenece.
+- El usuario tiene que poder bloquear a otro usuario
+
+## Listado de usuarios bloqueados
+
+- El usuario tiene que poder ver un listado de usuarios bloqueados
+- El usuario tiene que poder desbloquear a otro usuario
 
 ## [4] Envío de mensajes dentro de una conversación
 
