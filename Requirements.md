@@ -13,16 +13,17 @@
 ## [2] Creación de una conversación
 
 - El usuario tiene que poder ver un listado de usuarios con los que poder interactuar.
+  - Si ya se ha enviado una petición de conversación a un usuario, debe reflejarse como "pendiente de aceptar"
 - El usuario tiene que poder enviar una petición de conversación a otro usuario.
   - Descripción
-    - La petición de conversación debe tener un mensaje corto (300 caracteres)
+    - La petición de conversación debe tener un mensaje corto (300 caracteres)    
 - El usuario tiene que poder ver un listado de peticiones de conversación con su respectivo mensaje.
+    - Descripción
+       - El usuario no debería ver las peticiones de conversación que ha rechazado.
     - El usuario tiene que poder aceptar o rechazar las peticiones de conversación.
       - Descripción
         - Si el usuario acepta la petición, se deberá crear una conversación.
         - Si el usuario rechaza la petición, desaparecerá del listado.
-  - Descripción    
-    - Si el usuario (A) ha bloqueado anteriormente al usuario (B) que ha enviado la petición de conversación, esta petición de conversación no será visible en el listado.
 
 ## [3] Listado de conversaciones
 
