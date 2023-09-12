@@ -2,7 +2,7 @@ Tabla Chat con AWS DynamoDB
 
 | PK         | SK                                        | connectionId    | message                                    | url | attributes                                                                                 |
 |------------|-------------------------------------------|-----------------|--------------------------------------------|-----|--------------------------------------------------------------------------------------------|
-| fromUserId | CONNECTION_REQUEST_${toUserId}            |                 | Hola, me gustaria añadirte a mis contactos |     |                                                                                            |
+| fromUserId | CONNECTION_REQUEST_${toUserId}            |                 | Hola, me gustaria añadirte a mis contactos |     | { "rejected": true \| false }                                                                                           |
 | toUserId   | BLOCKED_USER_${fromUserId} |                 |                                            |     |                                                                                            |
 | chatId     | PARTICIPANT_${userId}                     |                 |                                            |     |                                                                                            |
 | chatId     | MESSAGE_${userId}_${DATE}                 |                 | ¡Hola, encantado de conocerte!             |     | {   "audio": "s3.com" \| null,   "image": "s3.com" \| null,   "video": "s3.com" \| null }  |
