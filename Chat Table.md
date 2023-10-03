@@ -6,4 +6,4 @@ Tabla Chat con AWS DynamoDB
 | fromUserId   | BLOCKED_USER_${toUserId} |                 |                                            |     |                                                                                            |
 | chatId     | PARTICIPANT_${userId}                     |                 |                                            |     |                                                                                            |
 | chatId     | MESSAGE_${userId}_${DATE}                 |                 | ¡Hola, encantado de conocerte!             |     | {   "audio": "s3.com" \| null,   "image": "s3.com" \| null,   "video": "s3.com" \| null }  |
-| userId     | CONNECTION                                | ${connectionId} |                                            |     | {   "status": "disconnected" \| "unavailable" \| null,   "notifications": true \| false, } |
+| userId     | CONNECTION                                | ${connectionId} |                                            |     | {   "status": "disconnected" \| "unavailable" \| "connected",   "notifications": true \| false, } |
